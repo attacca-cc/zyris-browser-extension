@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Zyris</title>
+    <style>
+      body { font: 14px system-ui, sans-serif; margin: 0; padding: 16px; width: 260px; }
+      h1 { font-size: 16px; margin: 0 0 8px; }
+      p { margin: 0 0 12px; color: #555; }
+      button { font: inherit; padding: 6px 12px; }
+      [hidden] { display: none; }
+    </style>
+  </head>
+  <body>
+    <h1>Zyris</h1>
+    <p id="status">Checking…</p>
+    <button id="grant" hidden>Allow access to all sites</button>
+    <button id="retry" hidden>Try again</button>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>
